@@ -1,32 +1,25 @@
-public class Train
-{
-    public static void main(String[] args)
-    {
-        Car cars[];
-        
-        int maximumNumberOfCars = 10;
-        int currentNumberOfBusinessCars = 2;
-        int currentNumberOfEconomyCars = 4;
+public class Train {
+	public static void main(String[] args) {
+		Car cars[];
 
-        if ((currentNumberOfBusinessCars + currentNumberOfEconomyCars)> maximumNumberOfCars) 
-               throw new IllegalArgumentException("The train cannot have more cars than it can physically pull");
-        
-        // TBD
-        // A train can only pull so many cars, as given by "maximumNumberOfCar".
-        // Use this argument to initialize an array of the biggest number of cars possible.
-        
+		int maximumNumberOfCars = 10;
+		int currentNumberOfBusinessCars = 2;
+		int currentNumberOfEconomyCars = 4;
 
-                
-        // TBD
-        // Then, add cars to this train, 
-        // as per requested by "currentNumberOfBusinessCars" and "currentNumberOfEconomyCars
-        
+		if ((currentNumberOfBusinessCars + currentNumberOfEconomyCars) > maximumNumberOfCars)
+			throw new IllegalArgumentException("The train cannot have more cars than it can physically pull");
 
-        // TBD: Print out the train
-        
-        
+		// TODO
+		// A train can only pull so many cars, as given by "maximumNumberOfCar".
+		// Use this argument to initialize an array of the biggest number of cars
+		// possible.
 
- 
-        }
-    }
+		// TODO
+		// Then, add cars to this train,
+		// as per requested by "currentNumberOfBusinessCars" and
+		// "currentNumberOfEconomyCars
+
+		// TODO: Print out the train
+
+	}
 }

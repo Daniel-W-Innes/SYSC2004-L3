@@ -11,6 +11,17 @@ public class Seat
     private boolean booked; // has this seat has been reserved?
     private double price;   // the cost of a ticket for this seat, in dollars
 
+    public static void main(String[] args) {
+    	Seat seat = new Seat(5, 25.00);
+    	System.out.println("Number: " +seat.getNumber());
+    	System.out.println("Price: " +seat.getPrice());
+    	System.out.println("isBooked: " +seat.isBooked());
+    	seat.book();
+    	System.out.println("isBooked: " +seat.isBooked());
+    	seat.cancelBooking();
+    	System.out.println("isBooked: " +seat.isBooked());
+    }
+    
     /**
      * Constructs a new Seat with the specified seat number and
      * ticket price.
@@ -73,5 +84,5 @@ public class Seat
         return false;
     }
     
-    public String toString() {return null;}
+    public String toString() {return "Seat " + number + " (" + price + "," + booked + ")";}
 }

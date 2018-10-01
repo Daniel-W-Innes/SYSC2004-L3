@@ -35,15 +35,18 @@ public class Car
      */
     public Car(int carId, boolean isBusinessClass)
     {
-       // TBD
+       // TODO
     }
 
-    public int getNumberOfSeats() { return -1;  // TBD };
-    public double getCost(int seatNo) { return -1.0;  // TBD }
-    public boolean isBooked(int seatNo) { return false; // TBD }
+    public int getNumberOfSeats() { return -1;  // TODO 
+    };
+    public double getCost(int seatNo) { return -1.0;  // TODO 
+    }
+    public boolean isBooked(int seatNo) { return false; // TODO 
+    }
     
     public int getNumberofFreeSeats() { 
-        // TBD
+        // TODO
 	return -1;
     }
     /** 
@@ -53,7 +56,7 @@ public class Car
      */
     public boolean isBusinessClass()
     {
-	// TBD
+	// TODO
         return false;
     }
  
@@ -62,7 +65,7 @@ public class Car
      */
     public int getId()
     {
-        // TBD
+        // TODO
 	return -1;
     }
   
@@ -73,7 +76,7 @@ public class Car
      */
     private String printTicket(int seatNo)
     {
-	// TBD
+	// TODO
         return null;
     }   
  
@@ -86,7 +89,7 @@ public class Car
      */
     public String bookNextSeat()
     {
-        // TBD     
+        // TODO     
         return null;
     }
 
@@ -103,12 +106,12 @@ public class Car
      */
     public boolean cancelSeat(int seatNo)
     {
-        // TBD
+        // TODO
 	return false;
     }    
     
     public String toString() {
-         // TBD
+         // TODO
 	return null;
     }
 }
